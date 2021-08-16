@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Saandeep's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+      $(function() {
+          $( "#rsch_lnk" ).click(function() {
+            $( "#rsch-idn" ).show();
+            $( "#home-idn" ).hide();
+            $( "#pub-idn" ).hide();
+
+          });
+
+          $( "#home_lnk" ).click(function() {
+            $( "#home-idn" ).show();
+            $( "#rsch-idn" ).hide();
+            $( "#pub-idn" ).hide();
+          });
+
+          $( "#pub_lnk" ).click(function() {
+            $( "#pub-idn" ).show();
+            $( "#home-idn" ).hide();
+            $( "#rsch-idn" ).hide();
+          });
+      });
+    </script>
+      
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand navbar-light justify-content-center">
+        <ul class="navbar-nav main-item">
+          <li class="nav-item">
+            <a class="nav-link" id="home_lnk" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="rsch_lnk" href="#">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pub_lnk" href="#">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Affective Lab</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="side-content">
+        <div class="row">
+          <div class="col-3">
+            <div class="card-md" style="width: 15rem;">
+              <div class="img-class">
+                <img class="card-img-top" src="./images/profile/profile_2.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Saandeep Aathreya</h5>
+                <p class="card-text">
+                  First year PhD student
+                  <br>
+                  Affective Computing Lab
+                  <br>
+                  University of South Florida
+                </p>
+                <a href="mailto:saandeepaath@usf.edu" target="_blank" class="btn email-btn">
+                  Email
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+
+            <div class="home-content" id="home-idn">
+              <article class="page">
+                <h1 id="subtitle">Introduction</h1>
+                <div class="article-wrap">
+                  <hr>
+                  <p>
+                    Hello there! I am a first year doctoral student at the Affective Computing Lab at the University of South Florida
+                    under the supervision of <a href="https://www.csee.usf.edu/~scanavan/">Prof. Shaun Canavan</a>
+                  </p>
+                  <br>
+                  <p>
+                    My research interests include:
+                    <ul>
+                      <li>Affective Computing: Analysing affective components in humans which includes emotions, expressions, action units using various modalities.</li>
+                      <li>ML/Deep Learning: Utilizing the capabilites of flow-based models to explore the latent space of the affective components. </li>
+                      <li>Biometrics: Continuous authentication and facial recognition of mobile users.</li>
+                    </ul>
+                  </p>
+                  <h3>Education and Work Experience</h3>
+                  <ul>
+                    <li>I completed my undergrad in Computer Science and Engineering from Visvesvaraya Technological University.</li>
+                    <li>I am currently pursuing my MS+PhD program in Computer Science and Engineering from the University of South Florida.</li>
+                    <li>I worked as a Technology Analyst from 2015-2019 at Infosys Ltd in Mysore, India.</li>
+                  </ul>
+                </div>
+              </article>
+              <hr>
+              <div class="row justify-content-end resume-row">
+                <a href="./images/resume.pdf" target="_blank" class="btn justify-content-right" id="resume">Download CV</a>
+              </div>
+            </div>
+
+            <div class="research-content" id="rsch-idn">
+              <article class="page">
+                <h1 id="subtitle">Research</h1>
+                <div class="article-wrap">
+                  <hr>
+                  <p>
+                    <ul>
+                      <li><b>Computer Vision/Deep Learning:</b> The first leg of my research plan includes developing a method of classification using flow-based models. 
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </article>
+            </div>
+            
+            <div class="publication-content" id="pub-idn">
+              <article class="page">
+                <h1 id="subtitle">Publications</h1>
+                <div class="article-wrap">
+                  <hr>
+                  <h3>Peer Reviewed Publications</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        <b>Task-based Classification of Reflective Thinking Using Mixture of Classifiers</b>
+                        <br>
+                        <i>S. Aathreya</i>, L. Jivnani, S. Srivastava, S. Hinduja, S. Canavan
+                        <br>
+                        <i>Affective Computing and Intelligent Interaction - 2021</i>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- <hr> -->
+      <div class="footer-copyright text-center py-3">
+        <a href="https://github.com/saandeepa93" target="_blank">
+          <img src="./images/profile/GitHub.png" width="42" height="40">
+        </a>
+        <a href="https://twitter.com/saandeepa93" target="_blank">
+          <img src="./images/profile/twitter.jpeg" width="42" height="40">
+        </a>
+        <a href="https://www.linkedin.com/in/saandeepa93/" target="_blank">
+          <img src="./images/profile/LinkedIn.png" width="42" height="40">
+        </a>
+        <a href="https://scholar.google.com/citations?user=-Akxmj0AAAAJ&hl=en" target="_blank">
+          <img src="./images/profile/gscholar.png" width="42" height="40">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

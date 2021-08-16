@@ -1,0 +1,71 @@
+.container {
+  /* background-color: #0a192f; */
+}
+
+.article-wrap {
+  font-family: "PT Serif",serif;
+  color: #333332;
+}
+
+.nav-link {
+  text-transform: uppercase;
+
+}
+.email > a{
+  text-decoration: none;
+}
+.side-content {
+  padding-top: 2%;
+}
+
+.card-md {
+  border: none;
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+
+.img-class {
+  text-align: center;
+}
+
+.card-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #4e4e4e;
+  font-size: larger;
+  font-style: bold;
+}
+.card-text {
+  font-family: monospace;
+  font-style: italic;
+  font-size: small;
+}
+
+
+.research-content {
+  display: none;
+}
+
+.publication-content {
+  display:none;
+}
+
+#resume {
+  background-color: darkslategray;
+  color: wheat
+}
+
+.email-btn {
+  text-decoration: none;
+  color:black;
+  font-family: fantasy;
+}
+
+#subtitle {
+  /* font-family: Roboto-mono; */
+  font-weight: bold;
+}
